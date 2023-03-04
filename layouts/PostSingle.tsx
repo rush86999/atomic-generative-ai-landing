@@ -9,7 +9,7 @@ const PostSingle = ({ frontmatter, content, mdxContent }) => {
   description = description ? description : content.slice(0, 120);
 
   return (
-    <Base title={title} description={description}>
+    <Base title={title} description={description} meta_title={undefined} image={undefined} noindex={undefined} canonical={undefined}>
       <section className="section">
         <div className="container">
           <div className="row">

@@ -14,7 +14,7 @@ const Home = ({ frontmatter }) => {
   const { title } = config.site;
 
   return (
-    <Base title={title}>
+    <Base title={title} meta_title={undefined} description={undefined} image={undefined} noindex={undefined} canonical={undefined}>
       {/* Banner */}
       <section className="section pb-[50px]">
         <div className="container">

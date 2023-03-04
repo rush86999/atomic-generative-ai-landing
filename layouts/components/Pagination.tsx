@@ -6,7 +6,7 @@ const Pagination = ({ section, currentPage, totalPages }) => {
   const hasPrevPage = currentPage > 1;
   const hasNextPage = totalPages > currentPage;
 
-  let pageList = [];
+  let pageList: number[] = [];
   for (let i = 1; i <= totalPages; i++) {
     pageList.push(i);
   }

@@ -9,7 +9,7 @@ export const slugify = (content) => {
 };
 
 // markdownify
-export const markdownify = (content, tag, className) => {
+export const markdownify = (content, tag?: string, className?: string) => {
   if (!content) return null;
 
   const Tag = tag;

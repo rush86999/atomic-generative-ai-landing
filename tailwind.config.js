@@ -74,6 +74,7 @@ module.exports = {
     require("@tailwindcss/typography"),
     require("@tailwindcss/forms"),
     require("tailwind-bootstrap-grid")({ generateContainer: false }),
+    require("daisyui"),
   ],
   // important: true,
 };

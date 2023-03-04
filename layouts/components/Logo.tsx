@@ -1,6 +1,7 @@
-import config from "@config/config.json";
+import config from "@config/config.json"
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
 const Logo = ({ src }) => {
   // destructuring items from config object

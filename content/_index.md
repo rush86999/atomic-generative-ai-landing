@@ -1,7 +1,7 @@
 ---
 banner:
-  title: Let us solve your critical website development challenges
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus
+  title: Get More Done in Less Time with Atomic - The Ultimate AI-Powered Calendar Tool
+  content: Schedule Smarter and Streamline Your Workflow with the Power of ChatGPT
   image: /images/banner-art.svg
   button:
     label: "Contact Us"
@@ -11,53 +11,56 @@ banner:
 feature: 
   title: Something You Need To Know
   features:
-  - name: "Clean Code"
-    icon: "/images/code.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Object Oriented"
-    icon: "/images/oop.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "24h Service"
+  - name: "AI-Powered Task Simplification"
+    icon: "/images/rectangle-stack.svg"
+    content: "Atomic uses ChatGPT to simplify complex tasks into easy-to-follow instructions, so you can get more done in less time"
+  - name: "Timeline Summary"
+    icon: "/images/clock.svg"
+    content: "Get a quick and easy-to-understand summary of your upcoming schedule, so you always know what's coming next"
+  - name: "Customized Day Schedule"
+    icon: "/images/calendar.svg"
+    content: "Atomic uses ChatGPT to create a customized day schedule based on your priorities and preferences, so you can maximize your productivity and get more done in less time"
+  - name: "Meeting Request Template with Availability Sharing"
     icon: "/images/user-clock.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Value for Money"
-    icon: "/images/love.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Faster Response"
-    icon: "/images/speedometer.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Cloud Support"
-    icon: "/images/cloud.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Atomic makes it easy to schedule meetings with a meeting request template generated with ChatGPT that includes availability, so you can avoid the hassle of endless back-and-forth emails and phone calls"
+  - name: "Relevant Agenda Creation"
+    icon: "/images/ppt.svg"
+    content: "Atomic uses ChatGPT to create a customized agenda based on your topic of interest, so you can quickly and easily prepare for meetings, presentations, and more"
+  - name: "Explain How to Solve a Task"
+    icon: "/images/pencil-square.svg"
+    content: "Atomic uses ChatGPT to provide step-by-step instructions on how to solve a task, making it easy to tackle even the most complex projects"
 
 # services
 services:
-  - title: "It is the most advanced digital marketing and it company."
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "How To Do A Task"
+    content: "By utilizing ChatGPT, Atomic streamlines intricate tasks into straightforward directives, thereby enabling you to accomplish more within a shorter time frame."
     images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
+      - "/images/howToTask1.png"
+      - "/images/howToTask2.png"
+      - "/images/howToTask3.png"
     button:
       enable: true
       label: Check it out
       link: /contact
 
-  - title: "It is a privately owned Information and cyber security company"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Create Day Schedule"
+    content: "Atomic leverages ChatGPT to generate a personalized daily timetable based on your tasks that aligns with your priorities and preferences, enabling you to optimize your productivity and accomplish more within a shorter timeframe. Welcome to timeboxing on steroids 🚀"
     images: 
-      - "/images/service-slide-1.png"
+      - "/images/daySchedule1.png"
+      -  "/images/daySchedule2.png"
+      -  "/images/daySchedule3.png"
+      -  "/images/daySchedule4.png"
     button:
       enable: true
       label: Check it out
       link: /contact
   
-  - title: "It’s a team of experienced and skilled people with distributions"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Agenda"
+    content: "Atomic utilizes ChatGPT technology to generate a personalized agenda that aligns with your areas of interest, allowing you to efficiently and effortlessly get ready for meetings, presentations, and other events."
     images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
+      - "/images/agenda1.png"
+      - "/images/agenda2.png"
+      - "/images/agenda3.png"
     button:
       enable: true
       label: Check it out
