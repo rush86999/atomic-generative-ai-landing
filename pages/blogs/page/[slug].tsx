@@ -17,7 +17,7 @@ const BlogPagination = ({ postIndex, posts, currentPage, pagination }) => {
   const { title } = frontmatter;
 
   return (
-    <Base title={title}>
+    <Base title={title} meta_title={undefined} description={undefined} image={undefined} noindex={undefined} canonical={undefined}>
       <section className="section">
         <div className="container">
           {markdownify(title, "h1", "h1 text-center font-normal text-[56px]")}
@@ -63,7 +63,7 @@ export const getStaticProps = async ({ params }) => {
   const { pagination } = config.settings;
   const posts = getSinglePage(`content/${blog_folder}`).sort(
     (post1, post2) =>
-      new Date(post2.frontmatter.date) - new Date(post1.frontmatter.date)
+      (new Date(post2.frontmatter.date).getTime() - new Date(post1.frontmatter.date).getTime())
   );
   const postIndex = await getListPage(`content/${blog_folder}/_index.md`);
   const mdxContent = await parseMDX(postIndex.content);

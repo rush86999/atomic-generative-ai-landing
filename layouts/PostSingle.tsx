@@ -4,7 +4,7 @@ import { MDXRemote } from "next-mdx-remote";
 import Image from "next/image";
 import Base from "./Baseof";
 
-const PostSingle = ({ frontmatter, content, mdxContent }) => {
+const PostSingle = ({ frontmatter, content, mdxContent, authors, slug }) => {
   let { description, title, image } = frontmatter;
   description = description ? description : content.slice(0, 120);
 
