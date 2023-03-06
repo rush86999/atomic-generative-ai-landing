@@ -22,10 +22,12 @@
   },
 
   "params": {
-    "contact_form_action": "",
+    "contact_form_action": "https://1gvvlmisf5.execute-api.us-east-1.amazonaws.com/dev/add-to-list-public",
     "tag_manager_id": "",
     "footer_content": "The AI calendar assistant that simplifies meeting scheduling and task management",
-    "copyright": "Copyright 2023 By [Atomic](https://atomiclife.app/)"
+    "copyright": "Copyright 2023 By [Atomic](https://atomiclife.app/)",
+    "listId": 3,
+    "add_contact_to_list_url": "https://44tc626ff4.execute-api.us-east-1.amazonaws.com/prod/add-to-list-public"
   },
 
   "metadata": {

@@ -10,7 +10,7 @@ const Document = () => {
         {/* favicon */}
         <link
           rel="shortcut icon"
-          type="image/png"
+          type="image/ico"
           sizes="32x32"
           href={favicon}
         />
