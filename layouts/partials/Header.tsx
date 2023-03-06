@@ -10,7 +10,7 @@ const Header = () => {
   const router = useRouter();
 
   // distructuring the main menu from menu object
-  const { main } = menu;
+  const { main } = menu as any;
 
   // states declaration
   const [navOpen, setNavOpen] = useState(false);
@@ -59,7 +59,7 @@ const Header = () => {
           <ul className="navbar-nav block w-full md:flex md:w-auto lg:space-x-2">
             {main.map((menu, i) => (
               <React.Fragment key={`menu-${i}`}>
-                {menu.hasChildren ? (
+                {menu?.children?.length > 0 ? (
                   <li className="nav-item nav-dropdown group relative">
                     <span className="nav-link inline-flex items-center">
                       {menu.name}
