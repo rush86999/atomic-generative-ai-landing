@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
+    "title": "Atomic, AI calendar assistant",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
+    "favicon": "/images/favicon.ico",
+    "logo": "/images/logoAtomicAlt.png",
     "logo_width": "200",
     "logo_height": "48",
-    "logo_text": "Bigspring Light"
+    "logo_text": "Atomic"
   },
 
   "settings": {
@@ -24,13 +24,13 @@
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
-    "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"
+    "footer_content": "The AI calendar assistant that simplifies meeting scheduling and task management",
+    "copyright": "Copyright 2023 By [Atomic](https://atomiclife.app/)"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Atomic",
     "meta_image": "",
-    "meta_description": "A SAAS template for nextjs"
+    "meta_description": "The AI calendar assistant that simplifies meeting scheduling and task management"
   }
 }

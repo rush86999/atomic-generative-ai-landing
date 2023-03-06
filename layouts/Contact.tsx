@@ -35,7 +35,7 @@ const Contact = ({ data }) => {
                   required
                 />
               </div>
-              <div className="mb-3">
+              {/* <div className="mb-3">
                 <input
                   className="form-input w-full rounded"
                   name="subject"
@@ -50,9 +50,9 @@ const Contact = ({ data }) => {
                   rows={7}
                   placeholder="Your message"
                 />
-              </div>
+              </div> */}
               <button type="submit" className="btn btn-primary">
-                Send Now
+                Join The Waiting List!
               </button>
             </form>
           </div>

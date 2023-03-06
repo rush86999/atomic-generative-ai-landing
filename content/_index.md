@@ -22,7 +22,7 @@ feature:
     content: "Atomic uses ChatGPT to create a customized day schedule based on your priorities and preferences, so you can maximize your productivity and get more done in less time"
   - name: "Meeting Request Template with Availability Sharing"
     icon: "/images/user-clock.svg"
-    content: "Atomic makes it easy to schedule meetings with a meeting request template generated with ChatGPT that includes availability, so you can avoid the hassle of endless back-and-forth emails and phone calls"
+    content: "Atomic makes it easy to schedule meetings with a meeting request template generated with ChatGPT that includes summarized availability, so you can avoid the hassle of endless back-and-forth emails and phone calls"
   - name: "Relevant Agenda Creation"
     icon: "/images/ppt.svg"
     content: "Atomic uses ChatGPT to create a customized agenda based on your topic of interest, so you can quickly and easily prepare for meetings, presentations, and more"
@@ -55,23 +55,21 @@ services:
       label: Check it out
       link: /contact
   
+  - title: "Meeting Request Template with Availability Sharing"
+    content: "Atomic simplifies the process of scheduling meetings by creating a meeting request template using ChatGPT. The template includes a summary of availability, which allows you to avoid the inconvenience of lengthy email exchanges and phone conversations."
+    images:
+      - "/images/meetingReq1.png"
+    button:
+      enable: true
+      label: Check it out
+      link: /contact
+
   - title: "Agenda"
     content: "Atomic utilizes ChatGPT technology to generate a personalized agenda that aligns with your areas of interest, allowing you to efficiently and effortlessly get ready for meetings, presentations, and other events."
     images:
       - "/images/agenda1.png"
       - "/images/agenda2.png"
       - "/images/agenda3.png"
-    button:
-      enable: true
-      label: Check it out
-      link: /contact
-
-  - title: "A company standing different from others"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-    images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
     button:
       enable: true
       label: Check it out
@@ -86,7 +84,7 @@ workflow:
 # call_to_action
 call_to_action:
   title: Ready to get started?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  content: Atomic with ChatGPT will put your calendar on steroids. What are you waiting for?
   image: '/images/cta.svg'
   button:
     enable: true

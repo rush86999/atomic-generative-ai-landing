@@ -1,10 +1,10 @@
 {
-  "facebook": "https://facebook.com/",
-  "twitter": "https://twitter.com/",
+  "facebook": "",
+  "twitter": "https://twitter.com/rish1_2",
   "instagram": "",
   "youtube": "",
-  "linkedin": "https://linkedin.com/",
-  "github": "",
+  "linkedin": "",
+  "github": "https://github.com/rush86999/atomic",
   "gitlab": "",
   "discord": "",
   "slack": "",
@@ -16,7 +16,7 @@
   "pinterest": "",
   "soundcloud": "",
   "tumblr": "",
-  "reddit": "",
+  "reddit": "https://www.reddit.com/r/atomiclife/",
   "vk": "",
   "whatsapp": "",
   "snapchat": "",
@@ -27,6 +27,6 @@
   "email": "",
   "phone": "",
   "address": "",
-  "skype": "https://skype.com/",
+  "skype": "",
   "website": ""
 }
