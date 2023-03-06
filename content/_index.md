@@ -1,7 +1,7 @@
 ---
 banner:
   title: Get More Done in Less Time with Atomic - The Ultimate AI-Powered Calendar Tool
-  content: Schedule Smarter and Streamline Your Workflow with the Power of ChatGPT
+  content: Schedule Smarter and Streamline Your Workflow with the Power of Atomic + ChatGPT
   image: /images/banner-art.svg
   button:
     label: "Contact Us"
