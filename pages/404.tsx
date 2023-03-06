@@ -4,7 +4,7 @@ import { getRegularPage } from "@lib/contentParser";
 
 const notFound = ({ data }) => {
   return (
-    <Base>
+    <Base title={undefined} meta_title={undefined} description={undefined} image={undefined} noindex={undefined} canonical={undefined}>
       <NotFound data={data} />
     </Base>
   );
@@ -12,7 +12,7 @@ const notFound = ({ data }) => {
 
 // get 404 page data
 export const getStaticProps = async () => {
-  const notFoundData = await getRegularPage();
+  const notFoundData = await getRegularPage('');
   return {
     props: {
       data: notFoundData,
