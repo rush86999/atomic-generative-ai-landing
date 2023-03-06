@@ -1,6 +1,6 @@
 import { slug } from "github-slugger";
 import { marked } from "marked";
-
+import React from 'react'
 // slugify
 export const slugify = (content) => {
   if (!content) return null;
@@ -12,7 +12,7 @@ export const slugify = (content) => {
 export const markdownify = (content, tag?: string, className?: string) => {
   if (!content) return null;
 
-  const Tag = tag;
+  const Tag = tag as any;
   return tag ? (
     <Tag
       className={className}
