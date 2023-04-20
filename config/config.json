@@ -18,11 +18,11 @@
   "nav_button": {
     "enable": true,
     "label": "Get Started",
-    "link": "/contact"
+    "link": "https://app.atomiclife.app"
   },
 
   "params": {
-    "contact_form_action": "https://1gvvlmisf5.execute-api.us-east-1.amazonaws.com/dev/add-to-list-public",
+    "contact_form_action": "https://44tc626ff4.execute-api.us-east-1.amazonaws.com/prod/add-to-list-public",
     "tag_manager_id": "",
     "footer_content": "The AI calendar assistant that simplifies meeting scheduling and task management",
     "copyright": "Copyright 2023 By [Atomic](https://atomiclife.app/)",

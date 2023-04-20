@@ -41,7 +41,7 @@ services:
     button:
       enable: true
       label: Check it out
-      link: /contact
+      link: https://app.atomiclife.app
 
   - title: "Create Day Schedule"
     content: "Atomic leverages ChatGPT to generate a personalized daily timetable based on your tasks that aligns with your priorities and preferences, enabling you to optimize your productivity and accomplish more within a shorter timeframe. Welcome to timeboxing on steroids 🚀"
@@ -53,7 +53,7 @@ services:
     button:
       enable: true
       label: Check it out
-      link: /contact
+      link: https://app.atomiclife.app
   
   - title: "Meeting Request Template with Availability Sharing"
     content: "Atomic simplifies the process of scheduling meetings by creating a meeting request template using ChatGPT. The template includes a summary of availability, which allows you to avoid the inconvenience of lengthy email exchanges and phone conversations."
@@ -62,7 +62,7 @@ services:
     button:
       enable: true
       label: Check it out
-      link: /contact
+      link: https://app.atomiclife.app
 
   - title: "Agenda"
     content: "Atomic utilizes ChatGPT technology to generate a personalized agenda that aligns with your areas of interest, allowing you to efficiently and effortlessly get ready for meetings, presentations, and other events."
@@ -73,7 +73,7 @@ services:
     button:
       enable: true
       label: Check it out
-      link: /contact
+      link: https://app.atomiclife.app
 
 # workflow
 workflow: 
@@ -89,5 +89,5 @@ call_to_action:
   button:
     enable: true
     label: "Contact Us"
-    link: "/contact"
+    link: "https://app.atomiclife.app"
 ---

@@ -18,7 +18,7 @@ plans:
     - Simplify A Task
   button:
     label: Get started
-    link: "/contact"
+    link: "https://app.atomiclife.app"
 
 - title: Teams
   subtitle: Best For Teams
@@ -30,7 +30,7 @@ plans:
     - Self-Hosted Or Cloud
   button:
     label: Get started
-    link: "/contact"
+    link: "https://app.atomiclife.app"
 
 call_to_action:
   title: Looking for Machine Pro?
@@ -39,6 +39,6 @@ call_to_action:
   button:
     enable: true
     label: "Contact Us"
-    link: "/contact"
+    link: "customersupport@atomiclife.app"
     
 ---
