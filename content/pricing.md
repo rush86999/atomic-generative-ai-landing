@@ -16,6 +16,7 @@ plans:
     - How To Do A Task
     - Create a Meeting Request Email With Your Availability
     - Simplify A Task
+    - 14 days Free
   button:
     label: Get started
     link: "https://app.atomiclife.app"
