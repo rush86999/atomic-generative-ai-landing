@@ -77,7 +77,7 @@ services:
 
 # workflow
 workflow: 
-  title: "What if you could have a chat with your calendar? - Coming Soon!"
+  title: "What If You Could Have a Chat With Your Calendar? - Coming Soon!"
   image: "/images/banner.svg"
   description: "Powered by ChatGPT, You can have a conversation to meet, update, create and more with your calendar. Most importantly, you can teach it your preferences and priorities.\n 
   \"Schedule a meeting with [person] at [date and time] for [purpose].\"\n
