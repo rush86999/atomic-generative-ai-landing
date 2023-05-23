@@ -79,7 +79,7 @@ services:
 workflow: 
   title: "What if you could have a chat with your calendar? - Coming Soon!"
   image: "/images/banner.svg"
-  description: "Powered by ChatGPT, You can have a conversation to meet, update, create, teach and more with your calendar. Most importantly, you can teach it your preferences and priorities.\n \"Schedule a meeting with [person] at [date and time] for [purpose].\" \n\"Remind me to follow up with [person] on [date] regarding [topic].\"\n \"Block off [time frame] for [task or activity].\" \n \"Find an available time slot for a team meeting with [list of attendees].\""
+  description: "Powered by ChatGPT, You can have a conversation to meet, update, create and more with your calendar. Most importantly, you can teach it your preferences and priorities.\n \"Schedule a meeting with [person] at [date and time] for [purpose].\" \n\"Remind me to follow up with [person] on [date] regarding [topic].\"\n \"Block off [time frame] for [task or activity].\" \n \"Find an available time slot for a team meeting with [list of attendees].\""
 
 # call_to_action
 call_to_action:
