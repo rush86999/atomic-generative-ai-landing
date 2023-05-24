@@ -77,9 +77,9 @@ services:
 
 # workflow
 workflow: 
-  title: "What If You Could Have a Chat With Your Calendar? - Coming Soon!"
+  title: "What If Your Calendar Had a Brain? - Coming Soon!"
   image: "/images/banner.svg"
-  description: "Powered by ChatGPT, You can have a conversation to meet, block, schedule, find, update, create and more with your calendar. Most importantly, you can teach it your preferences and priorities."
+  description: "Powered by ChatGPT, You can have a conversation to meet, block, schedule, find and more with your calendar. Most importantly, you can teach it your preferences and priorities and let it run on Autopilot."
 
 
 # call_to_action
