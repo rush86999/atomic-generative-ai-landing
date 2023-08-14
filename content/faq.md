@@ -19,5 +19,5 @@ faqs:
   answer: If there is a mess up on my side, I will gladly refund your money. There is a trial period otherwise. No other form of refunds are offerred otherwise.
 
 - title: Is there a desktop version?
-  answer: A webapp is in the making. Stay tuned!
+  answer: The most up-to-date version is the web-app for now :)
 ---

@@ -11,65 +11,59 @@ banner:
 feature: 
   title: Something You Need To Know
   features:
-  - name: "AI-Powered Task Simplification"
+  - name: "ChatGPT powered Timeblocking for Projects"
     icon: "/images/rectangle-stack.svg"
-    content: "Atomic uses ChatGPT to simplify complex tasks into easy-to-follow instructions, so you can get more done in less time"
-  - name: "Timeline Summary"
+    content: "Atomic teams up with ChatGPT to help you plan out each step of your project. It divides your tasks into time blocks that fit the project timeline perfectly. This means you can finish more work in less time."
+  - name: "Find Meeting Time"
     icon: "/images/clock.svg"
-    content: "Get a quick and easy-to-understand summary of your upcoming schedule, so you always know what's coming next"
-  - name: "Customized Day Schedule"
+    content: "Discover the best times for your one-on-one or team meetings, and make sure everyone's top choices are considered. Our super-smart tool figures it out, and you can talk to Atomic using ChatGPT to help."
+  - name: "Tell Atomic to Customize your Day via ChatGPT"
     icon: "/images/calendar.svg"
-    content: "Atomic uses ChatGPT to create a customized day schedule based on your priorities and preferences, so you can maximize your productivity and get more done in less time"
-  - name: "Meeting Request Template with Availability Sharing"
+    content: "With ChatGPT by your side, you can design a day schedule that's just right for you. It's all about what you want and need. The result? You'll be super productive and get lots done in no time."
+  - name: "Meeting Request with Availability Sharing and Automated Meetings on Reply"
     icon: "/images/user-clock.svg"
-    content: "Atomic makes it easy to schedule meetings with a meeting request template generated with ChatGPT that includes summarized availability, so you can avoid the hassle of endless back-and-forth emails and phone calls"
-  - name: "Relevant Agenda Creation"
+    content: "Scheduling meetings becomes a breeze with Atomic. It helps you create a meeting request template using ChatGPT. This template shows when you're available, all neatly summed up. Your invitee simply responds to Atomic with their preferred time, and the scheduling magic happens automatically."
+  - name: "Your Time Preferences and Priorities on Autopilot"
     icon: "/images/ppt.svg"
-    content: "Atomic uses ChatGPT to create a customized agenda based on your topic of interest, so you can quickly and easily prepare for meetings, presentations, and more"
-  - name: "Explain How to Solve a Task"
+    content: "Effortlessly manage your daily schedule with Atomic by sharing your time preferences and priorities for various events. Autopilot intelligently rearranges tasks in case of time conflicts, ensuring a seamless and organized routine. "
+  - name: "Automate Creation of New Breaks when needed"
     icon: "/images/pencil-square.svg"
-    content: "Atomic uses ChatGPT to provide step-by-step instructions on how to solve a task, making it easy to tackle even the most complex projects"
+    content: "Elevate your productivity by communicating your desired break intervals to Atomic, empowering Autopilot to handle the rest effortlessly. Experience a new level of efficiency – try Atomic today!"
 
 # services
 services:
-  - title: "How To Do A Task"
-    content: "By utilizing ChatGPT, Atomic streamlines intricate tasks into straightforward directives, thereby enabling you to accomplish more within a shorter time frame."
+  - title: "Time block Tasks on Steroids"
+    content: "With the support of ChatGPT, Atomic efficiently allocates time blocks to individual project tasks, ensuring they seamlessly integrate into your project's timeline, whether it extends over days or weeks. This approach enhances your productivity by optimizing task management within the project's designated time slots. "
     images:
-      - "/images/howToTask1.png"
-      - "/images/howToTask2.png"
-      - "/images/howToTask3.png"
+      - "/video/multipleTasks.mp4"
+
     button:
       enable: true
       label: Check it out
       link: https://app.atomiclife.app
 
-  - title: "Create Day Schedule"
-    content: "Atomic leverages ChatGPT to generate a personalized daily timetable based on your tasks that aligns with your priorities and preferences, enabling you to optimize your productivity and accomplish more within a shorter timeframe. Welcome to timeboxing on steroids 🚀"
-    images: 
-      - "/images/daySchedule1.png"
-      -  "/images/daySchedule2.png"
-      -  "/images/daySchedule3.png"
-      -  "/images/daySchedule4.png"
+  - title: "Find Time that Works for Everyone"
+    content: "Atomic harnesses the synergies of ChatGPT and our proprietary AI planner, working in tandem to pinpoint time slots that genuinely respect and accommodate everyone's schedules 🕒. "
+    images:
+      - "/video/meetingTime.mp4"
     button:
       enable: true
       label: Check it out
       link: https://app.atomiclife.app
   
-  - title: "Meeting Request Template with Availability Sharing"
-    content: "Atomic simplifies the process of scheduling meetings by creating a meeting request template using ChatGPT. The template includes a summary of availability, which allows you to avoid the inconvenience of lengthy email exchanges and phone conversations."
+  - title: "Generate a Meeting Request with Availability and Automate Meetings on Reply"
+    content: "Experience the future of effortless meeting scheduling with Atomic. Through the ingenious collaboration of ChatGPT, Atomic crafts a meeting request template. This template not only highlights your availability but also sidesteps the hassles of drawn-out email threads and phone chats. Simply put, your invitee responds to Atomic with their preferred time, and voila – scheduling is automated!"
     images:
-      - "/images/meetingReq1.png"
+      - "/video/meetingInvite.mp4"
     button:
       enable: true
       label: Check it out
       link: https://app.atomiclife.app
 
-  - title: "Agenda"
-    content: "Atomic utilizes ChatGPT technology to generate a personalized agenda that aligns with your areas of interest, allowing you to efficiently and effortlessly get ready for meetings, presentations, and other events."
+  - title: "Autopilot your Time Preferences and Priorities"
+    content: "Empower your productivity with Atomic's intelligent features. Share your time preferences and priorities, and watch Autopilot take charge for the upcoming week. By recognizing that 80% of tasks and meetings are repetitive, Atomic liberates you from the monotony, enabling you to skip redundant and mundane activities. "
     images:
-      - "/images/agenda1.png"
-      - "/images/agenda2.png"
-      - "/images/agenda3.png"
+      - "/video/timePreferences.mp4"
     button:
       enable: true
       label: Check it out
@@ -77,9 +71,9 @@ services:
 
 # workflow
 workflow: 
-  title: "What If Your Calendar Had a Brain? - Coming Soon!"
+  title: "What If Your Calendar Had a Brain?"
   image: "/images/banner.svg"
-  description: "Powered by ChatGPT, You can have a conversation to meet, block, schedule, find and more with your calendar. Most importantly, you can teach it your preferences and priorities and let it run on Autopilot."
+  description: "Tap into the prowess of ChatGPT with Atomic – engage in conversations to set up meetings, allocate time blocks, schedule events, locate openings, and much more, all within your calendar. But the real game-changer? Teach Atomic your preferences and priorities, then watch it take the reins on Autopilot mode. Elevate your scheduling game – let Atomic revolutionize your calendar experience today!"
 
 
 # call_to_action

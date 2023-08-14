@@ -4,38 +4,36 @@ layout: pricing
 draft: false
 plans:
 
-- title: Generative Pro
-  subtitle: Best For Professionals Who Use Their Calendar Daily
-  price: 9.99
+- title: Generative Basic
+  subtitle: For simple ChatGPT scheduling for your calendar
+  price: 12
   type: month
   recommended: true
   features:
-    - Create Agenda
-    - Create Timeline Summary
-    - Create A Day Schedule
-    - How To Do A Task
-    - Create a Meeting Request Email With Your Availability
-    - Simplify A Task
+    - Unlimited number of tasks for adaptive time blocking
+    - Single Google calendar
     - 14 days Free
   button:
     label: Get started
     link: "https://app.atomiclife.app"
 
-- title: Teams
-  subtitle: Best For Teams
-  price: 9.99
+- title: Generative Pro
+  subtitle: For ChatGPT and AI powered schedule assists for tasks, meetings and breaks on your calendar
+  price: 15
   type: month
   features:
-    - Same As Generative Pro
-    - Tailored Support
-    - Self-Hosted Or Cloud
+    - Everything in Free plus
+    - Unlimited number of Meeting Assists with Handshake Links for any time period
+    - Unlimited number of Schedule Assists for any time period
+    - Autopilot - template driven attribute application using Smart Search for new events
+    - Automated Smart Tagging and attribute application using artificial intelligence for new events
   button:
     label: Get started
     link: "https://app.atomiclife.app"
 
 call_to_action:
-  title: Looking for Machine Pro?
-  content: Flexible Meetings and Tasks placement On Your Calendar. Looking To Subscribe To Both?
+  title: Have questions?
+  content: Happy to respond to any queries?
   image: '/images/cta.svg'
   button:
     enable: true

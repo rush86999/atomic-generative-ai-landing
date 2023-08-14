@@ -9,6 +9,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import { getListPage } from "../lib/contentParser";
 
+const isImage = ['gif','jpg','jpeg','png']; //you can add more
+const isVideo =['mpg', 'mp2', 'mpeg', 'mpe', 'mpv', 'mp4']
+
 const Home = ({ frontmatter }) => {
   const { banner, feature, services, workflow, call_to_action } = frontmatter;
   const { title } = config.site;
@@ -99,9 +102,10 @@ const Home = ({ frontmatter }) => {
                     init={service?.images > 1 ? false : true}
                   >
                     {/* Slides */}
-                    {service?.images.map((slide, index) => (
+                    {service?.images.map((slide: string, index) => (
                       <SwiperSlide key={index}>
-                        <Image src={slide} alt="" width={600} height={500} />
+                         {isImage?.includes(slide?.split('.')?.[1]) && <Image src={slide} alt="" width={600} height={500} /> }
+                         {isVideo?.includes(slide?.split('.')?.[1]) && <video autoPlay loop muted src={slide} style={{ width: '600px', height: '500px' }} /> }
                       </SwiperSlide>
                     ))}
                   </Swiper>
