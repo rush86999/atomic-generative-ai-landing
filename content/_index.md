@@ -11,7 +11,7 @@ banner:
 feature: 
   title: Something You Need To Know
   features:
-  - name: "ChatGPT powered Timeblocking for Projects"
+  - name: "ChatGPT powered Time blocking for Projects"
     icon: "/images/rectangle-stack.svg"
     content: "Atomic teams up with ChatGPT to help you plan out each step of your project. It divides your tasks into time blocks that fit the project timeline perfectly. This means you can finish more work in less time."
   - name: "Find Meeting Time"
